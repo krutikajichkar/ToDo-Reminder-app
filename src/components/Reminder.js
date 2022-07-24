@@ -53,7 +53,7 @@ function Reminder() {
   useEffect(() => {
     const interval = setInterval(() => {
       setTimer(timer + 1);
-    }, 60000);
+    }, 50000);
 
     const getNotify = () => {
       if (currentDate === userdate) {
