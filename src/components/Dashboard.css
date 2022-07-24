@@ -1,0 +1,46 @@
+body{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: #282238;
+    margin: 0;
+}
+ #main-div{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 7%;
+}
+.child-div{
+    width: 300px;
+    height: 200px;
+    background-color: #8208aa;
+    color: white;
+   padding: 40px;
+   border-radius: 7px;
+   font-size: 20px;
+   margin-bottom: 20px;
+   margin-right: 30px;
+   border-bottom: none;
+} 
+.child-div:hover{
+    transform: scale(1.1,1.1);
+}
+@media(max-width:900px){
+    #main-div{
+        width: 90%;
+        margin-left: 8%;
+        flex-direction: column; 
+        
+        
+    }
+    h1{
+        font-size: 20px;
+    }
+    .child-div{
+        width:200px;
+        margin-bottom: 50px;
+    }
+}

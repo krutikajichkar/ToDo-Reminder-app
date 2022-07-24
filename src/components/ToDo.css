@@ -1,0 +1,23 @@
+#todo-div{
+    width: 800px;
+    text-align: center;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#item-main-div{
+    margin-top: 25px;
+    width: 600px;
+    background-color: blueviolet;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 5px;
+}
+ #item-main-div:hover{
+    background-color: white;
+    color: black;
+ }
